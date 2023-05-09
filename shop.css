@@ -3,12 +3,12 @@ body {
   /* font-family: 'Kumbh Sans', sans-serif; */
 }
 
-.fullcontainer {
+/* .fullcontainer {
   background-color: #a5dacd;
   display: flex;
   justify-content: center;
   max-width: 600px;
-}
+} */
 
 section.mobile {
   width: 400px;
