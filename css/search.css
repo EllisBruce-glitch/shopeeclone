@@ -36,14 +36,6 @@ section > .container {
   margin-bottom: 16px;
 }
 
-h1 {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 31.69px;
-  color: #3e4958;
-}
-
 #arrowback {
   display: flex;
   align-items: center;
@@ -92,58 +84,71 @@ input {
   color: #d5dde0;
 }
 
-/* INFORMATION CSS*/
-
-.instruction-container {
-  display: flex;
+.title-btn-container {
   width: 303px;
-  height: 72px;
-  margin-bottom: 53px;
-}
-
-.instruction-container > p {
-  width: 241px;
-  height: 48px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 24px;
-  color: #3e4958;
-}
-
-.code-container {
+  height: 36px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 303px;
-  height: 60px;
-  margin-bottom: 404.5px;
+  flex-direction: row;
+  margin-top: 39px;
 }
 
-.number-container {
-  width: 60px;
-  height: 60px;
+h1 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3e4958;
+}
+
+.clear-btn {
+  width: 73px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #f7f8f9;
   border: 0.5px solid #d5dde0;
-  border-radius: 14px;
+  border-radius: 7px;
 }
 
-.slider {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-self: flex;
-  margin-top: 42px;
-  margin-bottom: 9px;
+.clear-btn > h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #d5dde0;
+}
+
+.recent-container {
+  margin-top: 11px;
+  width: 303px;
+  height: 355px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .btn-container {
+  margin-top: 148px;
   width: 303px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .btn-container > #btnsend {
@@ -151,7 +156,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 303px;
+  width: 224px;
   height: 60px;
   border-radius: 14px;
   background: linear-gradient(180deg, #fb582c 0%, #ff5b2c 73.44%);
@@ -162,4 +167,24 @@ input {
   font-weight: 700;
   font-size: 16px;
   color: #fff;
+}
+
+.btn-camera {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #d5dde0;
+  border-radius: 14px;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: flex;
+  margin-top: 42px;
+  margin-bottom: 9px;
 }

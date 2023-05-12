@@ -182,50 +182,6 @@ h3 {
   color: #3e4958;
 }
 
-/* SOCIAL MEDIA BUTTONS CSS */
-
-.socialmedia-container {
-  width: 303px;
-  height: 60px;
-  margin-top: 28px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-
-.smediabtn-container > #smediabtn {
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 142px;
-  height: 60px;
-  border-radius: 14px;
-  background-color: #d5dde0;
-}
-
-.title-existingaccount {
-  width: 303px;
-  height: 17px;
-  margin-top: 50px;
-  margin-bottom: 42px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.title-existingaccount > a {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ff5f00;
-  text-decoration: none;
-}
-
 .slider {
   width: 100%;
   display: flex;
